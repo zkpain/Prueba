@@ -15,7 +15,7 @@ public class Testprueba {
 
 	// assigning the values
 	@Before
-	protected void setUp() {
+	public void setUp() {
 		value1 = 3;
 		value2 = 4;
 	}
@@ -25,6 +25,7 @@ public class Testprueba {
 	public void testAdd() {
 		System.out.println("***********************testAdd*************************");
 		int result = value1 + value2;
+		assertTrue(true);
 	
 		
 	}

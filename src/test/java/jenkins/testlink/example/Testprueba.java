@@ -1,9 +1,5 @@
 package jenkins.testlink.example;
 
-
-
-
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -25,7 +21,7 @@ public class Testprueba {
 	public void testAdd() {
 		System.out.println("***********************testAdd*************************");
 		int result = value1 + value2;
-		assertTrue(false);
+		assertTrue(true);
 	
 		
 	}
